@@ -1,0 +1,77 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>You must love me</title>
+	
+<script type="text/javascript" src="script.js"></script>
+<style >
+body{
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 60px;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #6d20b4;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px; 
+}
+
+.button:hover {background-color: #5a207c}
+
+.button:active {
+  background-color: #5a1e7c;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+
+</style>
+</head>
+
+
+<body>
+<h1 style="position:absolute; left:12.5em; top:1em;">Do you love me?</h1>
+<div id="By" style="position:absolute; left:400px; top:150px; width:210px; 
+height:210px;">
+	<input type="button" class="button" value=" YES " onclick="f1()">
+</div>
+<div id="Bn" style="position: absolute; left: 700px; top: 150px; width: 210px; height: 210px;">
+	<input type="button" class="button" value="  NO  " onmouseover="f()">
+</div>
+
+</body></html>
